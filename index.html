@@ -1,77 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
-
 <body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <header>
-        <div class="container">
-            <h1>Abdulaziz Kivuvani</h1>
-            <p>Web Developer | Designer | Freelancer</p>
-        </div>
-    </header>
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Explore my work, resume, and get to know more about me.</p>
+    </section>
 
     <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hello! I'm a passionate web developer with a love for coding and design. I specialize in front-end development and enjoy creating interactive, responsive websites. I am always learning new technologies and striving to improve my skills.</p>
-        </div>
+        <h2>About Me</h2>
+        <p>Hi! I'm Abdulaziz Kivuvani, a passionate web developer with experience in front-end and back-end technologies.</p>
     </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React, Node.js</li>
-                <li>Responsive Web Design</li>
-                <li>Version Control (Git, GitHub)</li>
-                <li>UI/UX Design</li>
-            </ul>
+    <section id="work">
+        <h2>My Work</h2>
+        <p>Here are some of my projects:</p>
+        <div>
+            <h3>Project 1</h3>
+            <p>Ive created a well working website for a restaurant however i came across some challenges with my code however they were solved using some research materials such as chatgpt</p>
+        </div>
+        <div>
+            <h3>Project 2</h3>
+            <p>my second project was a bank account saving system for absa bank...this project was slightly more challenging and took about 3 months however it is well wroking and being used currently</p>
         </div>
     </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project-card">
-                <img src="james goat.jpg" alt="Project 1">
-                <h3>Project 1</h3>
-        <p> i designed this project toperfection although i had some few difficulties on the way but got through it with use of research tools such as google</p>
-            </div>
-            <div class="project-card">
-                <img src="chicken wow.jpeg" alt="Project 2">
-                <h3>Project 2</h3>
-                <p>with this second projec i was able to apply some of the skills that i had acquired from my first project so it was much easer</p>
-            </div>
-        </div>
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my resume:</p>
+        <a href="resume.pdf" download>Download Resume</a>
     </section>
 
     <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>Feel free to reach out for collaboration or just to say hello!</p>
-            <form action="mailto:your-email@example.com" method="POST" enctype="text/plain">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
     </section>
 
     <footer>
-        <div class="container">
-            <p>© 2025 Your Name. All Rights Reserved.</p>
-        </div>
+        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
     </footer>
 
 </body>
-
 </html>
